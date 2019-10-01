@@ -1,8 +1,8 @@
 <p align="center">
-  <img width="88" height="400" src="">
+  <img width="100%" height="auto" src="https://github.com/mbejda/serverless-county-api/blob/master/images/logo.png?raw=true">
 </p>
 
-#:coffee: Serverless County API
+# :coffee: Serverless County API
 
 
 Serverless API that returns a GeoJSON containing county and state boundary coordinates.
@@ -19,18 +19,14 @@ npm install
 sls deploy
 ```
 
-#:notebook: API Example
+# :notebook: API Example
 ### County Boundaries
 ```
 /api/{state}/county/boundary?name={county}
 ```
-### State Boundaries
-```
-/api/{state}/boundary
-```
 
 Example Response
-```
+```json
 {
   "response": [
     {
@@ -55,9 +51,9 @@ Example Response
 ```
 <hr/>
 
-You can view it in action ![here](https://rapidapi.com/not.milos.bejda/api/county-api). <br/>
+You can view it in action [here](https://rapidapi.com/not.milos.bejda/api/county-api). <br/>
 
-You can find me on :bird: twitter ![@notmilobejda](https://twitter.com/notmilobejda) <br/>
-Checkout my blog ![mbejda.com](https://mbejda.com). <br/>
+You can find me on :bird: Twitter -> [@notmilobejda](https://twitter.com/notmilobejda) <br/>
+Checkout my blog [mbejda.com](https://mbejda.com). <br/>
 
 **Enjoy <3**

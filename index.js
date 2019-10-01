@@ -1,4 +1,4 @@
-var shapefile = require("shapefile");
+const shapefile = require("shapefile");
 
 const normalize = function(input){
     return input.replace(/\s+/g, '-').toLowerCase();
