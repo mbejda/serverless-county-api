@@ -1,0 +1,4 @@
+**/*.shp filter=lfs diff=lfs merge=lfs -text
+data/county/2019/tl_2019_us_county.shp[[:space:]] filter=lfs diff=lfs merge=lfs -text
+data/county/2019/tl_2019_us_county.shp filter=lfs diff=lfs merge=lfs -text
+*.shp filter=lfs diff=lfs merge=lfs -text
