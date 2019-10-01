@@ -5,7 +5,7 @@
 # :coffee: Serverless County API
 
 
-Serverless API example that returns a GeoJSON containing county and state boundary coordinates.
+Serverless API example that returns a GeoJSON containing county boundary coordinates.
 It has been designed to work out of the box with minimum configurations and has a small dependency footprint.
 :package: Dataset is included. 
 
